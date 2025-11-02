@@ -1,0 +1,24 @@
+body {
+    background-color: #d0dce8;
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    /* Mantiene la proporción de la imagen */
+    border-radius: 8px;
+    /* Pequeño redondeo para los íconos */
+}
+
+.card-img-top {
+    height: 200px;
+    /* Puedes ajustar este valor (ej. 250px) */
+    object-fit: cover;
+    /* Esto evita que la imagen se distorsione. */
+}
+ .carousel-item img {
+            height: 500px; /* Altura fija */
+            object-fit: cover; /* Evita que la imagen se distorsione */
+            object-position: center; 
+        }
